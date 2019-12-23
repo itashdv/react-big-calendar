@@ -1,22 +1,22 @@
 let defaultMessages = {
-  date: 'Date',
-  time: 'Time',
-  event: 'Event',
-  allDay: 'All Day',
-  week: 'Week',
-  work_week: 'Work Week',
-  day: 'Day',
-  month: 'Month',
-  previous: 'Back',
-  next: 'Next',
-  yesterday: 'Yesterday',
-  tomorrow: 'Tomorrow',
-  today: 'Today',
-  agenda: 'Agenda',
+  date: 'Дата',
+  time: 'Время',
+  event: 'Событие',
+  allDay: 'Весь день',
+  week: 'Неделя',
+  work_week: 'Рабочая неделя',
+  day: 'День',
+  month: 'Месяц',
+  previous: 'Пред.',
+  next: 'След.',
+  yesterday: 'Вчера',
+  tomorrow: 'Завтра',
+  today: 'Сегодня',
+  agenda: 'События',
 
-  noEventsInRange: 'There are no events in this range.',
+  noEventsInRange: 'Нет событий!',
 
-  showMore: total => `+${total} more`,
+  showMore: total => `+${total} еще`,
 }
 
 export default function messages(msgs) {
